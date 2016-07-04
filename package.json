@@ -1,0 +1,24 @@
+{
+  "name": "mptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-preset-react": "6.11.1",
+    "babel-register": "6.9.0",
+    "jsdom": "9.4.0",
+    "mocha": "2.5.3",
+    "react": "15.2.0",
+    "react-addons-test-utils": "15.2.0",
+    "react-dom": "15.2.0",
+    "unexpected": "10.14.2",
+    "unexpected-react": "3.2.3"
+  }
+}
